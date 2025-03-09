@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flexbox</title>
+    <style>
+        /* Create boxes display */
+        .container {
+            width: 80%; height: 150px;
+            border: 10px solid black; border-radius: 10px;}
+        .item {
+            width: 50px; height: 50px;
+            background-color: #c9ffc9;
+            text-align: center; border: 10px solid #64ff00;
+            border-radius: 10px}
+        /* Demonstrate flex */
+        .container {display: flex; flex-wrap: wrap; align-content: flex-end}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+    </div>
+</body>
+</html>
